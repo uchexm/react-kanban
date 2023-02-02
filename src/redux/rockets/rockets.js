@@ -1,10 +1,10 @@
-import axios from "axios";
-import { createAsyncThunk } from "@reduxjs/toolkit";
+import axios from 'axios';
+import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const FETCH_ROCKETS = "spacetravellershub/rockets/FETCH_ROCKETS";
-const CANCEL_RESERVATION = "spacetravellershub/rockets/CANCEL_RESERVATION";
-const RESERVE_ROCKET = "spacetravellershub/rockets/RESERVE_ROCKET";
-const ROCKETS_URL = "https://api.spacexdata.com/v3/rockets";
+const FETCH_ROCKETS = 'spacetravellershub/rockets/FETCH_ROCKETS';
+const CANCEL_RESERVATION = 'spacetravellershub/rockets/CANCEL_RESERVATION';
+const RESERVE_ROCKET = 'spacetravellershub/rockets/RESERVE_ROCKET';
+const ROCKETS_URL = 'https://api.spacexdata.com/v3/rockets';
 
 // Initial state
 const rockets = [];
@@ -16,11 +16,9 @@ const rocketsReducer = (state = rockets, action) => {
     case `${FETCH_ROCKETS}/fulfilled`:
       return payload.data;
     case RESERVE_ROCKET:
-      return state.map((rocket) =>
-        rocket.id === payload
-          ? { ...rocket, reserved: !rocket.reserved }
-          : rocket
-      );
+      return state.map((rocket) => (rocket.id === payload
+        ? { ...rocket, reserved: !rocket.reserved }
+        : rocket));
     case CANCEL_RESERVATION:
       return state.map((rocket) => {
         if (rocket.id !== payload) {
