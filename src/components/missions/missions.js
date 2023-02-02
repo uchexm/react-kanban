@@ -12,7 +12,7 @@ function Missions() {
   const dispatch = useDispatch();
   useEffect(() => {
     if (!mission.length) dispatch(fetchApi());
-  }, []);
+  }, [dispatch, mission.length]);
 
   return (
     <div>
