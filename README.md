@@ -36,7 +36,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Space-Hub\] ](#-space-hub-)
+- [📖 Space-Hub ](#-space-hub-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Space-Hub] <a name="about-project"></a>
+# 📖 Space-Hub <a name="about-project"></a>
 
 **Space Hub** In this project, we build a web application using real live data from the SpaceX API. The website allows users to book rockets and join selected space missions.
 
@@ -165,9 +165,9 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add Rockets page]**
-- [ ] **[Reserve and cancel rockets]**
-- [ ] **[Display reserved rockets]**
+- [ ] **Add Rockets page**
+- [ ] **Reserve and cancel rockets**
+- [ ] **Display reserved rockets**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
