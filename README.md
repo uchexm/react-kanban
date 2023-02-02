@@ -76,9 +76,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Reserve and Cancel Rockets]**
-- **[Join and Leave Missions]**
-- **[Display reserved rockets and joined missions]**
+- **Reserve and Cancel Rockets**
+- **Join and Leave Missions**
+- **Display reserved rockets and joined missions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,9 +165,9 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add Rockets page**
-- [ ] **Reserve and cancel rockets**
-- [ ] **Display reserved rockets**
+- [ ] **Add Dragons page**
+- [ ] **Reserve and cancel gradons**
+- [ ] **Display reserved gradons**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
