@@ -13,7 +13,7 @@ REQUIRED SECTIONS:
   - Live Demo
 - Getting Started
 - Authors
-- Future Features
+- Future Feature
 - Contributing
 - Show your support
 - Acknowledgements
